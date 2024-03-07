@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "hw8"
+version = "0.1.0"
+description = ""
+authors = ["AndreySamoylenko15 <takdjik@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pymongo = "^4.6.2"
+mongoengine = "^0.27.0"
+pika = "^1.3.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
